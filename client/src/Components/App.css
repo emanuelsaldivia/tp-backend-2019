@@ -1,0 +1,8 @@
+.name .opening {
+    display: none;
+  }
+  
+  .active .opening {
+    display: block
+  }
+  

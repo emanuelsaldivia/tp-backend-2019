@@ -1,0 +1,32 @@
+{
+  "name": "services",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "included": {
+      "type": "boolean",
+      "required": true
+    },
+    "price": {
+      "type": "string"
+    },
+    "extra_info": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
